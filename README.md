@@ -6,8 +6,8 @@ This project focuses on building accurate, explainable, and robust fraud detecti
 
 ## Business Problem
 Fraud detection systems must balance two competing risks:
-- **False Positives** – Legitimate transactions incorrectly flagged as fraud, harming user experience  
-- **False Negatives** – Fraudulent transactions that go undetected, leading to financial loss  
+- **False Positives** – Legitimate transactions incorrectly flagged as fraud, harming user experience
+- **False Negatives** – Fraudulent transactions that go undetected, leading to financial loss
 This project emphasizes:
 - Precision–Recall trade-offs  
 - Business-aware model evaluation  
@@ -15,6 +15,7 @@ This project emphasizes:
 
 ## Datasets
 The following datasets are used:
+
 - Fraud_Data.csv – E-commerce transaction data including user behavior, device, timing, and transaction details.  
 - IpAddress_to_Country.csv – Maps IP address ranges to countries for geolocation analysis.  
 - creditcard.csv – Bank transaction data with anonymized PCA-transformed features (used in later tasks).  
@@ -92,3 +93,11 @@ The following datasets are used:
 
 4. **Gender specific risk awareness:**  
    - Male users appear slightly more likely to be flagged; consider this in combined feature checks but avoid discrimination, so focus on combination rules rather than single-feature enforcement.
+=======
+- **Fraud_Data.csv**  
+  E-commerce transaction data including user behavior, device, timing, and transaction details.
+- **IpAddress_to_Country.csv**  
+  Maps IP address ranges to countries for geolocation analysis.
+- **creditcard.csv**  
+  Bank transaction data with anonymized PCA-transformed features (used in later tasks).
+
