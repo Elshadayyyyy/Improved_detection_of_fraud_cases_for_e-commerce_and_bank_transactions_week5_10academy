@@ -93,11 +93,4 @@ The following datasets are used:
 
 4. **Gender specific risk awareness:**  
    - Male users appear slightly more likely to be flagged; consider this in combined feature checks but avoid discrimination, so focus on combination rules rather than single-feature enforcement.
-=======
-- **Fraud_Data.csv**  
-  E-commerce transaction data including user behavior, device, timing, and transaction details.
-- **IpAddress_to_Country.csv**  
-  Maps IP address ranges to countries for geolocation analysis.
-- **creditcard.csv**  
-  Bank transaction data with anonymized PCA-transformed features (used in later tasks).
 
